@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Weaver", "Weaver.vcxproj", "{CFE7B0CC-968F-4176-9A46-4B742A04D481}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Weaver", "Weaver\Weaver.vcxproj", "{CFE7B0CC-968F-4176-9A46-4B742A04D481}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTests", "UnitTests\UnitTests.vcxproj", "{479F89F4-0866-43FA-B0D0-533305A27BA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{CFE7B0CC-968F-4176-9A46-4B742A04D481}.Release|x64.Build.0 = Release|x64
 		{CFE7B0CC-968F-4176-9A46-4B742A04D481}.Release|x86.ActiveCfg = Release|Win32
 		{CFE7B0CC-968F-4176-9A46-4B742A04D481}.Release|x86.Build.0 = Release|Win32
+		{479F89F4-0866-43FA-B0D0-533305A27BA4}.Debug|x64.ActiveCfg = Debug|x64
+		{479F89F4-0866-43FA-B0D0-533305A27BA4}.Debug|x64.Build.0 = Debug|x64
+		{479F89F4-0866-43FA-B0D0-533305A27BA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{479F89F4-0866-43FA-B0D0-533305A27BA4}.Debug|x86.Build.0 = Debug|Win32
+		{479F89F4-0866-43FA-B0D0-533305A27BA4}.Release|x64.ActiveCfg = Debug|x64
+		{479F89F4-0866-43FA-B0D0-533305A27BA4}.Release|x64.Build.0 = Debug|x64
+		{479F89F4-0866-43FA-B0D0-533305A27BA4}.Release|x86.ActiveCfg = Release|Win32
+		{479F89F4-0866-43FA-B0D0-533305A27BA4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
